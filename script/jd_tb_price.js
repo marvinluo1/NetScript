@@ -25,6 +25,7 @@ const $ = new Env(ScriptName);
 const ScriptIdentifier = "jd_tb_price";
 const ScriptVersion = 6;
 const ScriptUrl = `https://service.2ti.st/QuanX/Script/${ScriptIdentifier}`
+const cookieContent = 'gwdang_permanent_id=93242ab122f5273f62eb17a67b8f32e7;';
 
 const res = $request;
 const resp = isUndefined($response) ? null : $response;
@@ -459,7 +460,7 @@ function request_history_price(id, type, callback) {
             'Sec-Fetch-Dest': 'script',
             'Referer': item_url,
             'Accept-Language': 'zh-CN,zh;q=0.9',
-            'Cookie': 'gwdang_permanent_id=7d6148908deb267527ac0a7109e73b0e;'
+            'Cookie': cookieContent
 
         },
         timeout: 2000
