@@ -23,7 +23,7 @@ const ScriptName = "京东|淘宝 比价";
 const $ = new Env(ScriptName);
 
 const ScriptIdentifier = "jd_tb_price";
-const ScriptVersion = 6;
+const ScriptVersion = 7;
 const ScriptUrl = `https://service.2ti.st/QuanX/Script/${ScriptIdentifier}`
 const cookieContent = 'gwdang_permanent_id=93242ab122f5273f62eb17a67b8f32e7;';
 
