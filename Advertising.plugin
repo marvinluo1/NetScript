@@ -1,0 +1,10 @@
+[URL Rewrite]
+# Block Ads Start
+
+# 第一韩漫底部闪烁js https://www.dwtoon.com/hanman/static/dist/ppm/js/footkk.js
+^https?:\/\/www.dwtoon.com\/hanman\/static\/dist\/ppm\/js\/footkk\.js - reject
+
+
+
+[MITM]
+hostname = www.dwtoon.com,service.4gtv.tv
