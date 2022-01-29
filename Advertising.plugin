@@ -1,3 +1,9 @@
+[Rule]
+# 去广告
+DOMAIN-SUFFIX,eccbb.com,REJECT
+DOMAIN-SUFFIX,sandrarene.com,REJECT
+#URL-REGEX,^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad,REJECT
+
 [URL Rewrite]
 # Block Ads Start
 
