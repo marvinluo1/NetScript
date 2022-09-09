@@ -11,7 +11,7 @@ DOMAIN-SUFFIX,sandrarene.com,REJECT
 ^https?:\/\/www\.xftoon\.com\/hanman\/static\/dist\/ppm\/js\/footkk - reject
 
 [Script]
-http-response ^https?:www.xftoon.com\/hanman\/static\/dist\/ppm\/js\/common\.js.*$ script-path=https://raw.githubusercontent.com/live9080/NetScript/main/script/dyhm.js, requires-body=true, tag=dyhm
+http-response ^https?:\/\/www.xftoon.com\/hanman\/static\/dist\/ppm\/js\/common\.js.*$ script-path=https://raw.githubusercontent.com/live9080/NetScript/main/script/dyhm.js, requires-body=true, tag=dyhm
 
 [MITM]
 hostname = www.xftoon.com,service.4gtv.tv
