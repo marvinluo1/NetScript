@@ -7,10 +7,10 @@ DOMAIN-SUFFIX,sandrarene.com,REJECT
 [URL Rewrite]
 # Block Ads Start
 
-# 第一韩漫底部闪烁js https://www.xbtoon.com/hanman/static/dist/ppm/js/footkk.js
-^https?:\/\/www\.xbtoon\.com\/hanman\/static\/dist\/ppm\/js\/footkk - reject
+# 第一韩漫底部闪烁js https://www.xftoon.com/hanman/static/dist/ppm/js/footkk.js
+^https?:\/\/www\.xftoon\.com\/hanman\/static\/dist\/ppm\/js\/footkk - reject
 
 
 
 [MITM]
-hostname = www.xbtoon.com,service.4gtv.tv
+hostname = www.xftoon.com,service.4gtv.tv
