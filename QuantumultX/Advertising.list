@@ -1,0 +1,11 @@
+# 因为绝大部分广告自己用不到，所以自己写几个自己用的到的APP屏蔽
+# 完整版请从下面仓库里面找
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list
+
+
+# 番茄小说使用的广告SDK
+HOST-SUFFIX,dig.bdurl.net,Advertising
+HOST-SUFFIX,pangolin-sdk-toutiao-b.com,Advertising
+HOST-SUFFIX,pangolin-sdk-toutiao.com,Advertising
+HOST-SUFFIX,pangolin.snssdk.com,Advertising
+HOST-SUFFIX,pangolin16.isnssdk.com,Advertising
