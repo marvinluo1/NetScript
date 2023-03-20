@@ -15,3 +15,7 @@ HOST-SUFFIX,dm.toutiao.com,Advertising
 HOST-SUFFIX,dsp.toutiao.com,Advertising
 HOST-SUFFIX,nativeapp.toutiao.com,Advertising
 HOST-SUFFIX,sm.toutiao.com,Advertising
+HOST,dig.zjurl.cn,Advertising
+HOST,toutiao-frontier.snssdk.com,Advertising
+HOST-SUFFIX,tanx.com,Advertising
+
