@@ -32,7 +32,7 @@ if (url.indexOf(path2) != -1) {
 
   let shareUrl = "";
   for (let index = 0; index < floors.length || 0; index++) {
-    const element = array[index];
+    const element = floors[index];
     if (
       element.data &&
       element.data.property &&
